@@ -1,0 +1,25 @@
+{
+  "name": "contest-api",
+  "version": "1.0.0",
+  "description": "An api for contest ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node init/index.js",
+    "dev": "nodemon init/index.js"
+  },
+  "author": "chambertech",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.6.10",
+    "mongoose": "^5.13.2",
+    "shortid": "^2.2.16",
+    "validator": "^13.6.0"
+  },
+  "devDependencies": {
+    "env-cmd": "^8.0.1"
+  }
+}
